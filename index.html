@@ -7,11 +7,21 @@
     <script src="https://code.jquery.com/jquery-3.5.1.js"
         integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/style.css">
-    <script src="/main.js"></script>
-    <title>Document</title>
+    <script src="/jquery.linkIt/jquery.linkIt.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#link').linkIt({
+                href: 'http://test.com',
+                text: 'Click Me'
+            })
+        });
+    </script>
+    <title>Plugin Example</title>
 </head>
 
 <body>
+    <h1>LinkIt Demo</h1>
+    <p>This is the jQUery LinkIt plugin demo. Let's make <span id="link">this text</span> into a link</p>
 
 </body>
 

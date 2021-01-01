@@ -1,0 +1,33 @@
+{
+    "name": "linkIt",
+    "title": "LinkIt jQuery Plugin",
+    "description": "Simple plugin to convert any element into a link.",
+    "keywords": [
+        "link",
+        "html",
+        "content"
+    ],
+    "version": "0.1.0",
+    "author": {
+        "name": "Brad Traversy",
+        "url": "https://techguywebsolutions.com"
+    },
+    "maintainers": [
+        {
+            "name": "Brad Traversy",
+            "email": "techguyinfo@gmail.com",
+            "url": "https://techguywebsolutions.com"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/taoh24/jquery.linkit"
+        }
+    ],
+    "homepage": "https://github.com/taoh24/jquery.linkit",
+    "docs": "https://github.com/taoh24/jquery.linkit",
+    "dependencies": {
+        "jquery": ">=1.9"
+    }
+}
